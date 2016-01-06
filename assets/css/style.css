@@ -31,10 +31,17 @@
   color: #FFFFFF;
   padding: 5vh 0; }
 
+.container-top {
+  margin-top: 50px; }
+
 .about-content > .row > div {
   margin-bottom: 5vh; }
-.about-content > .row > .col-xs-12 > p {
-  font-size: large; }
+
+.about-crest {
+  margin: auto;
+  max-width: 256px;
+  max-height: 256px;
+  margin-bottom: 1vh; }
 
 .home-main {
   background-image: url("/assets/images/home-background.jpg");
