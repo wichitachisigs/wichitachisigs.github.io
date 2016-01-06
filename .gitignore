@@ -1,0 +1,8 @@
+.idea
+*.iml
+
+.sass-cache
+
+public/*.css.map
+
+public/assets/lib

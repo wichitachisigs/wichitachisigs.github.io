@@ -1,0 +1,33 @@
+.navbar {
+  //background: black;
+  //border-bottom: $divider-color;
+  //color: $primary-color-text;
+}
+
+.navbar-nav, .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+  color: $primary-color-text;
+}
+
+.navbar {
+  margin-bottom: 50px;
+}
+
+.navbar.affix-top {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: rgba(50, 50, 50, 0.5);
+  margin-bottom: -50px;
+}
+
+.navbar.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.navbar-header > a > img {
+  max-height: 20px;
+  max-width: 20px;
+}

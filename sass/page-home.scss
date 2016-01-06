@@ -1,0 +1,50 @@
+.home-main {
+  background-image: url('/assets/images/home-background.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 500px;
+  > h2 {
+    font-weight: bolder;
+  }
+  margin-bottom: 5vh;
+  padding: 0;
+}
+
+.home-main-center {
+  display: inline-block;
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  min-height: 400px;
+}
+
+.home-main-container {
+
+  background: rgba(0, 0, 0, 0.5);
+  color: $primary-color-text;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.home-main-crest {
+  max-height: 256px;
+  max-width: 256px;
+}
+
+.home-content {
+  > .row {
+    > div {
+      margin-bottom: 5vh;
+    }
+    > .col-xs-12 {
+      > p {
+        font-size: large;
+      }
+    }
+  }
+}

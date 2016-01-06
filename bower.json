@@ -1,0 +1,22 @@
+{
+  "name": "wichitachisigs",
+  "authors": [
+    "John Untivero <jpuntivero@gmail.com>"
+  ],
+  "description": "Website for Wichita State's Chi Sigma Tau",
+  "main": "public/index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
