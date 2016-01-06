@@ -3,6 +3,4 @@
 
 .sass-cache
 
-public/*.css.map
-
-public/assets/lib
+assets/lib
