@@ -11,5 +11,13 @@
 }
 
 .container-top {
-  margin-top: 50px;
+  margin-top: $navbar-height;
+}
+
+.anchor {
+  position: relative;
+  width: 0px;
+  height: 0px;
+  margin-top: -$navbar-height;
+  display: block;
 }
